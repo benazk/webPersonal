@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Robotics - Sitio Web</title>
+  <title>Hardware - Sitio Web</title>
   <link rel="stylesheet" href="../style.css">
 
 </head>
+
 <body>
   <header>
-    <h1>Robotics</h1>
+    <h1>Hardware</h1>
   </header>
 
   <nav>
@@ -24,8 +26,26 @@
 
   <div id="contacto">
     <h2>Contacto</h2>
-    <p>Aquí puedes proporcionar información de contacto o un formulario de contacto.</p>
+    <p>A traves de este Formulario podreis poner vuestros datos personales y profesionales para contratar nuestros servicios.</p>
   </div>
-
+  <form action="">
+    <div>
+    <b><label for="nombre">Nombre: </label></b>
+      <input type="text" name="nombre" id="nombre">
+    </div>
+    <br>
+    <div>
+    <b><label for="apellido">Apellido: </label></b>
+      <input type="text" name="apellido" id="apellido">
+    </div>
+    <br>
+    <div>
+    <b><label for="correo">E-Mail: </label></b>
+      <input style="margin-left: 16px;" type="text" name="correo" id="correo">
+    </div>
+    <br>
+    <button style="width: 110px; height: auto; margin-left: 100px;">Enviar datos</button>
+  </form>
 </body>
+
 </html>
